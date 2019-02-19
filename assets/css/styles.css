@@ -1,0 +1,6 @@
+body{
+    background: lightgray;
+}
+nav ul li{
+    display: inline;
+}
