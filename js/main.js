@@ -54,3 +54,16 @@ window.onload = function() {
     css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
     document.body.appendChild(css);
 };
+
+$(function() {
+    var header = $(".page-header");
+    $(window).scroll(function() {    
+        var scroll = $(window).scrollTop();
+    
+        if (scroll >= 200) {
+            header.addClass("white-header");
+        } else {
+            header.removeClass("white-header");
+        }
+    });
+});
