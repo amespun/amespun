@@ -148,7 +148,7 @@ html {
   }
 
   .btn{
-    background: transparent;
+    background: white;
     display: inline-block;
     color: #444444;
     border-radius: 20px;
@@ -177,8 +177,7 @@ html {
    /* ---- banner ---- */
     .content-banner{
       height: 100vh;
-      background: url(https://images.unsplash.com/photo-1526376043067-5af36c35cd6c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1339&q=80) center fixed;
-      /* background: white center fixed; */
+      background-image: url('../images/pawel-czerwinski-1294339-unsplash.jpg');
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
